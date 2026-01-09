@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 2a08e72f9996f8a4b8b3b21fb00d338d
+timeCreated: 1492569992
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: BoxConnector
+    100004: BoxConnector003
+    100006: BoxConnector004
+    100008: BoxConnector2
+    100010: //RootNode
+    100012: Perimeter
+    100014: PowerBox
+    100016: PowerCord003
+    100018: PowerCord004
+    100020: PowerCord005
+    100022: PowerCord006
+    100024: PowerCord1
+    100026: PowerCord2
+    100028: PowerCylinderL
+    100030: PowerCylinderR
+    100032: SmallPowerCylinderL
+    100034: SmallPowerCylinderR
+    400000: Box001
+    400002: BoxConnector
+    400004: BoxConnector003
+    400006: BoxConnector004
+    400008: BoxConnector2
+    400010: //RootNode
+    400012: Perimeter
+    400014: PowerBox
+    400016: PowerCord003
+    400018: PowerCord004
+    400020: PowerCord005
+    400022: PowerCord006
+    400024: PowerCord1
+    400026: PowerCord2
+    400028: PowerCylinderL
+    400030: PowerCylinderR
+    400032: SmallPowerCylinderL
+    400034: SmallPowerCylinderR
+    2300000: Box001
+    2300002: BoxConnector
+    2300004: BoxConnector003
+    2300006: BoxConnector004
+    2300008: BoxConnector2
+    2300010: Perimeter
+    2300012: PowerBox
+    2300014: PowerCord003
+    2300016: PowerCord004
+    2300018: PowerCord005
+    2300020: PowerCord006
+    2300022: PowerCord1
+    2300024: PowerCord2
+    2300026: PowerCylinderL
+    2300028: PowerCylinderR
+    2300030: SmallPowerCylinderL
+    2300032: SmallPowerCylinderR
+    3300000: Box001
+    3300002: BoxConnector
+    3300004: BoxConnector003
+    3300006: BoxConnector004
+    3300008: BoxConnector2
+    3300010: Perimeter
+    3300012: PowerBox
+    3300014: PowerCord003
+    3300016: PowerCord004
+    3300018: PowerCord005
+    3300020: PowerCord006
+    3300022: PowerCord1
+    3300024: PowerCord2
+    3300026: PowerCylinderL
+    3300028: PowerCylinderR
+    3300030: SmallPowerCylinderL
+    3300032: SmallPowerCylinderR
+    4300000: Perimeter
+    4300002: PowerCylinderR
+    4300004: PowerCylinderL
+    4300006: SmallPowerCylinderL
+    4300008: SmallPowerCylinderR
+    4300010: PowerBox
+    4300012: PowerCord2
+    4300014: PowerCord1
+    4300016: BoxConnector2
+    4300018: BoxConnector
+    4300020: BoxConnector003
+    4300022: BoxConnector004
+    4300024: PowerCord003
+    4300026: PowerCord004
+    4300028: PowerCord005
+    4300030: PowerCord006
+    4300032: Box001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 6.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

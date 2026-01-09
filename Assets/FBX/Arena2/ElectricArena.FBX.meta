@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: f98cb91078ba744408912e9bc69039f1
+timeCreated: 1496012126
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arena
+    100002: Box001
+    100004: Box003
+    100006: Box004
+    100008: BoxConnector
+    100010: BoxConnector003
+    100012: BoxConnector004
+    100014: BoxConnector2
+    100016: //RootNode
+    100018: Floor
+    100020: Lid1
+    100022: Lid2
+    100024: PowerBox
+    100026: PowerCord003
+    100028: PowerCord004
+    100030: PowerCord005
+    100032: PowerCord006
+    100034: PowerCord1
+    100036: PowerCord2
+    100038: PowerCylinderL
+    100040: PowerCylinderR
+    100042: ShockSpinner
+    100044: SmallElectroGenerator
+    100046: SmallPowerCylinderL
+    100048: ThunderPump
+    100050: Traphinge
+    100052: Tube001
+    100054: Tube002
+    100056: Tube003
+    100058: Tube004
+    100060: ZapperCover
+    100062: ZapStick
+    400000: Arena
+    400002: Box001
+    400004: Box003
+    400006: Box004
+    400008: BoxConnector
+    400010: BoxConnector003
+    400012: BoxConnector004
+    400014: BoxConnector2
+    400016: //RootNode
+    400018: Floor
+    400020: Lid1
+    400022: Lid2
+    400024: PowerBox
+    400026: PowerCord003
+    400028: PowerCord004
+    400030: PowerCord005
+    400032: PowerCord006
+    400034: PowerCord1
+    400036: PowerCord2
+    400038: PowerCylinderL
+    400040: PowerCylinderR
+    400042: ShockSpinner
+    400044: SmallElectroGenerator
+    400046: SmallPowerCylinderL
+    400048: ThunderPump
+    400050: Traphinge
+    400052: Tube001
+    400054: Tube002
+    400056: Tube003
+    400058: Tube004
+    400060: ZapperCover
+    400062: ZapStick
+    2300000: Arena
+    2300002: Box001
+    2300004: Box003
+    2300006: Box004
+    2300008: BoxConnector
+    2300010: BoxConnector003
+    2300012: BoxConnector004
+    2300014: BoxConnector2
+    2300016: Floor
+    2300018: Lid1
+    2300020: Lid2
+    2300022: PowerBox
+    2300024: PowerCord003
+    2300026: PowerCord004
+    2300028: PowerCord005
+    2300030: PowerCord006
+    2300032: PowerCord1
+    2300034: PowerCord2
+    2300036: PowerCylinderL
+    2300038: PowerCylinderR
+    2300040: ShockSpinner
+    2300042: SmallElectroGenerator
+    2300044: SmallPowerCylinderL
+    2300046: ThunderPump
+    2300048: Traphinge
+    2300050: Tube001
+    2300052: Tube002
+    2300054: Tube003
+    2300056: Tube004
+    2300058: ZapperCover
+    2300060: ZapStick
+    3300000: Arena
+    3300002: Box001
+    3300004: Box003
+    3300006: Box004
+    3300008: BoxConnector
+    3300010: BoxConnector003
+    3300012: BoxConnector004
+    3300014: BoxConnector2
+    3300016: Floor
+    3300018: Lid1
+    3300020: Lid2
+    3300022: PowerBox
+    3300024: PowerCord003
+    3300026: PowerCord004
+    3300028: PowerCord005
+    3300030: PowerCord006
+    3300032: PowerCord1
+    3300034: PowerCord2
+    3300036: PowerCylinderL
+    3300038: PowerCylinderR
+    3300040: ShockSpinner
+    3300042: SmallElectroGenerator
+    3300044: SmallPowerCylinderL
+    3300046: ThunderPump
+    3300048: Traphinge
+    3300050: Tube001
+    3300052: Tube002
+    3300054: Tube003
+    3300056: Tube004
+    3300058: ZapperCover
+    3300060: ZapStick
+    4300000: Arena
+    4300002: PowerCylinderR
+    4300004: PowerCylinderL
+    4300006: SmallPowerCylinderL
+    4300008: SmallElectroGenerator
+    4300010: ThunderPump
+    4300012: PowerBox
+    4300014: PowerCord2
+    4300016: PowerCord1
+    4300018: BoxConnector2
+    4300020: BoxConnector
+    4300022: BoxConnector003
+    4300024: BoxConnector004
+    4300026: PowerCord003
+    4300028: PowerCord004
+    4300030: PowerCord005
+    4300032: PowerCord006
+    4300034: Box001
+    4300036: Floor
+    4300038: Traphinge
+    4300040: Lid2
+    4300042: Box004
+    4300044: Lid1
+    4300046: Box003
+    4300048: ZapStick
+    4300050: Tube002
+    4300052: Tube004
+    4300054: Tube001
+    4300056: Tube003
+    4300058: ShockSpinner
+    4300060: ZapperCover
+    7400000: TrupUp
+    7400002: TrapOpen
+    7400004: TrapClose
+    7400006: TrapDown
+    7400008: Pumping
+    7400010: PumpDown
+    7400012: PumpUp
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TrupUp
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arena
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: BoxConnector
+        weight: 1
+      - path: BoxConnector2
+        weight: 1
+      - path: BoxConnector003
+        weight: 1
+      - path: BoxConnector004
+        weight: 1
+      - path: Floor
+        weight: 1
+      - path: PowerBox
+        weight: 1
+      - path: PowerCord1
+        weight: 1
+      - path: PowerCord2
+        weight: 1
+      - path: PowerCord003
+        weight: 1
+      - path: PowerCord004
+        weight: 1
+      - path: PowerCord005
+        weight: 1
+      - path: PowerCord006
+        weight: 1
+      - path: PowerCylinderL
+        weight: 1
+      - path: PowerCylinderR
+        weight: 1
+      - path: SmallElectroGenerator
+        weight: 1
+      - path: SmallElectroGenerator/ThunderPump
+        weight: 1
+      - path: SmallPowerCylinderL
+        weight: 1
+      - path: Traphinge
+        weight: 1
+      - path: Traphinge/Lid1
+        weight: 1
+      - path: Traphinge/Lid1/Box003
+        weight: 1
+      - path: Traphinge/Lid2
+        weight: 1
+      - path: Traphinge/Lid2/Box004
+        weight: 1
+      - path: Traphinge/ZapStick
+        weight: 1
+      - path: Traphinge/ZapStick/ShockSpinner
+        weight: 1
+      - path: Traphinge/ZapStick/Tube001
+        weight: 1
+      - path: Traphinge/ZapStick/Tube002
+        weight: 1
+      - path: Traphinge/ZapStick/Tube003
+        weight: 1
+      - path: Traphinge/ZapStick/Tube004
+        weight: 1
+      - path: Traphinge/ZapStick/ZapperCover
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TrapOpen
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arena
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: BoxConnector
+        weight: 1
+      - path: BoxConnector2
+        weight: 1
+      - path: BoxConnector003
+        weight: 1
+      - path: BoxConnector004
+        weight: 1
+      - path: Floor
+        weight: 1
+      - path: PowerBox
+        weight: 1
+      - path: PowerCord1
+        weight: 1
+      - path: PowerCord2
+        weight: 1
+      - path: PowerCord003
+        weight: 1
+      - path: PowerCord004
+        weight: 1
+      - path: PowerCord005
+        weight: 1
+      - path: PowerCord006
+        weight: 1
+      - path: PowerCylinderL
+        weight: 1
+      - path: PowerCylinderR
+        weight: 1
+      - path: SmallElectroGenerator
+        weight: 1
+      - path: SmallElectroGenerator/ThunderPump
+        weight: 1
+      - path: SmallPowerCylinderL
+        weight: 1
+      - path: Traphinge
+        weight: 1
+      - path: Traphinge/Lid1
+        weight: 1
+      - path: Traphinge/Lid1/Box003
+        weight: 1
+      - path: Traphinge/Lid2
+        weight: 1
+      - path: Traphinge/Lid2/Box004
+        weight: 1
+      - path: Traphinge/ZapStick
+        weight: 1
+      - path: Traphinge/ZapStick/ShockSpinner
+        weight: 1
+      - path: Traphinge/ZapStick/Tube001
+        weight: 1
+      - path: Traphinge/ZapStick/Tube002
+        weight: 1
+      - path: Traphinge/ZapStick/Tube003
+        weight: 1
+      - path: Traphinge/ZapStick/Tube004
+        weight: 1
+      - path: Traphinge/ZapStick/ZapperCover
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TrapClose
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arena
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: BoxConnector
+        weight: 1
+      - path: BoxConnector2
+        weight: 1
+      - path: BoxConnector003
+        weight: 1
+      - path: BoxConnector004
+        weight: 1
+      - path: Floor
+        weight: 1
+      - path: PowerBox
+        weight: 1
+      - path: PowerCord1
+        weight: 1
+      - path: PowerCord2
+        weight: 1
+      - path: PowerCord003
+        weight: 1
+      - path: PowerCord004
+        weight: 1
+      - path: PowerCord005
+        weight: 1
+      - path: PowerCord006
+        weight: 1
+      - path: PowerCylinderL
+        weight: 1
+      - path: PowerCylinderR
+        weight: 1
+      - path: SmallElectroGenerator
+        weight: 1
+      - path: SmallElectroGenerator/ThunderPump
+        weight: 1
+      - path: SmallPowerCylinderL
+        weight: 1
+      - path: Traphinge
+        weight: 1
+      - path: Traphinge/Lid1
+        weight: 1
+      - path: Traphinge/Lid1/Box003
+        weight: 1
+      - path: Traphinge/Lid2
+        weight: 1
+      - path: Traphinge/Lid2/Box004
+        weight: 1
+      - path: Traphinge/ZapStick
+        weight: 1
+      - path: Traphinge/ZapStick/ShockSpinner
+        weight: 1
+      - path: Traphinge/ZapStick/Tube001
+        weight: 1
+      - path: Traphinge/ZapStick/Tube002
+        weight: 1
+      - path: Traphinge/ZapStick/Tube003
+        weight: 1
+      - path: Traphinge/ZapStick/Tube004
+        weight: 1
+      - path: Traphinge/ZapStick/ZapperCover
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TrapDown
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arena
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: BoxConnector
+        weight: 1
+      - path: BoxConnector2
+        weight: 1
+      - path: BoxConnector003
+        weight: 1
+      - path: BoxConnector004
+        weight: 1
+      - path: Floor
+        weight: 1
+      - path: PowerBox
+        weight: 1
+      - path: PowerCord1
+        weight: 1
+      - path: PowerCord2
+        weight: 1
+      - path: PowerCord003
+        weight: 1
+      - path: PowerCord004
+        weight: 1
+      - path: PowerCord005
+        weight: 1
+      - path: PowerCord006
+        weight: 1
+      - path: PowerCylinderL
+        weight: 1
+      - path: PowerCylinderR
+        weight: 1
+      - path: SmallElectroGenerator
+        weight: 1
+      - path: SmallElectroGenerator/ThunderPump
+        weight: 1
+      - path: SmallPowerCylinderL
+        weight: 1
+      - path: Traphinge
+        weight: 1
+      - path: Traphinge/Lid1
+        weight: 1
+      - path: Traphinge/Lid1/Box003
+        weight: 1
+      - path: Traphinge/Lid2
+        weight: 1
+      - path: Traphinge/Lid2/Box004
+        weight: 1
+      - path: Traphinge/ZapStick
+        weight: 1
+      - path: Traphinge/ZapStick/ShockSpinner
+        weight: 1
+      - path: Traphinge/ZapStick/Tube001
+        weight: 1
+      - path: Traphinge/ZapStick/Tube002
+        weight: 1
+      - path: Traphinge/ZapStick/Tube003
+        weight: 1
+      - path: Traphinge/ZapStick/Tube004
+        weight: 1
+      - path: Traphinge/ZapStick/ZapperCover
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pumping
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arena
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: BoxConnector
+        weight: 1
+      - path: BoxConnector2
+        weight: 1
+      - path: BoxConnector003
+        weight: 1
+      - path: BoxConnector004
+        weight: 1
+      - path: Floor
+        weight: 1
+      - path: PowerBox
+        weight: 1
+      - path: PowerCord1
+        weight: 1
+      - path: PowerCord2
+        weight: 1
+      - path: PowerCord003
+        weight: 1
+      - path: PowerCord004
+        weight: 1
+      - path: PowerCord005
+        weight: 1
+      - path: PowerCord006
+        weight: 1
+      - path: PowerCylinderL
+        weight: 1
+      - path: PowerCylinderR
+        weight: 1
+      - path: SmallElectroGenerator
+        weight: 1
+      - path: SmallElectroGenerator/ThunderPump
+        weight: 1
+      - path: SmallPowerCylinderL
+        weight: 1
+      - path: Traphinge
+        weight: 1
+      - path: Traphinge/Lid1
+        weight: 1
+      - path: Traphinge/Lid1/Box003
+        weight: 1
+      - path: Traphinge/Lid2
+        weight: 1
+      - path: Traphinge/Lid2/Box004
+        weight: 1
+      - path: Traphinge/ZapStick
+        weight: 1
+      - path: Traphinge/ZapStick/ShockSpinner
+        weight: 1
+      - path: Traphinge/ZapStick/Tube001
+        weight: 1
+      - path: Traphinge/ZapStick/Tube002
+        weight: 1
+      - path: Traphinge/ZapStick/Tube003
+        weight: 1
+      - path: Traphinge/ZapStick/Tube004
+        weight: 1
+      - path: Traphinge/ZapStick/ZapperCover
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PumpDown
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arena
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: BoxConnector
+        weight: 1
+      - path: BoxConnector2
+        weight: 1
+      - path: BoxConnector003
+        weight: 1
+      - path: BoxConnector004
+        weight: 1
+      - path: Floor
+        weight: 1
+      - path: PowerBox
+        weight: 1
+      - path: PowerCord1
+        weight: 1
+      - path: PowerCord2
+        weight: 1
+      - path: PowerCord003
+        weight: 1
+      - path: PowerCord004
+        weight: 1
+      - path: PowerCord005
+        weight: 1
+      - path: PowerCord006
+        weight: 1
+      - path: PowerCylinderL
+        weight: 1
+      - path: PowerCylinderR
+        weight: 1
+      - path: SmallElectroGenerator
+        weight: 1
+      - path: SmallElectroGenerator/ThunderPump
+        weight: 1
+      - path: SmallPowerCylinderL
+        weight: 1
+      - path: Traphinge
+        weight: 1
+      - path: Traphinge/Lid1
+        weight: 1
+      - path: Traphinge/Lid1/Box003
+        weight: 1
+      - path: Traphinge/Lid2
+        weight: 1
+      - path: Traphinge/Lid2/Box004
+        weight: 1
+      - path: Traphinge/ZapStick
+        weight: 1
+      - path: Traphinge/ZapStick/ShockSpinner
+        weight: 1
+      - path: Traphinge/ZapStick/Tube001
+        weight: 1
+      - path: Traphinge/ZapStick/Tube002
+        weight: 1
+      - path: Traphinge/ZapStick/Tube003
+        weight: 1
+      - path: Traphinge/ZapStick/Tube004
+        weight: 1
+      - path: Traphinge/ZapStick/ZapperCover
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PumpUp
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arena
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: BoxConnector
+        weight: 1
+      - path: BoxConnector2
+        weight: 1
+      - path: BoxConnector003
+        weight: 1
+      - path: BoxConnector004
+        weight: 1
+      - path: Floor
+        weight: 1
+      - path: PowerBox
+        weight: 1
+      - path: PowerCord1
+        weight: 1
+      - path: PowerCord2
+        weight: 1
+      - path: PowerCord003
+        weight: 1
+      - path: PowerCord004
+        weight: 1
+      - path: PowerCord005
+        weight: 1
+      - path: PowerCord006
+        weight: 1
+      - path: PowerCylinderL
+        weight: 1
+      - path: PowerCylinderR
+        weight: 1
+      - path: SmallElectroGenerator
+        weight: 1
+      - path: SmallElectroGenerator/ThunderPump
+        weight: 1
+      - path: SmallPowerCylinderL
+        weight: 1
+      - path: Traphinge
+        weight: 1
+      - path: Traphinge/Lid1
+        weight: 1
+      - path: Traphinge/Lid1/Box003
+        weight: 1
+      - path: Traphinge/Lid2
+        weight: 1
+      - path: Traphinge/Lid2/Box004
+        weight: 1
+      - path: Traphinge/ZapStick
+        weight: 1
+      - path: Traphinge/ZapStick/ShockSpinner
+        weight: 1
+      - path: Traphinge/ZapStick/Tube001
+        weight: 1
+      - path: Traphinge/ZapStick/Tube002
+        weight: 1
+      - path: Traphinge/ZapStick/Tube003
+        weight: 1
+      - path: Traphinge/ZapStick/Tube004
+        weight: 1
+      - path: Traphinge/ZapStick/ZapperCover
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
