@@ -6,9 +6,12 @@ public class ThunderController : MonoBehaviour {
 
     // Use this for initialization
 
-    /**Public variables*/
-    public GameObject thunder;
-    public float thunderRate;
+    [SerializeField]
+    private GameObject thunder;
+    [SerializeField]
+    private float thunderRate;
+
+    public float ThunderRate { get => thunderRate; set => thunderRate = value; }
 
     /**variables*/
     float currentTime;

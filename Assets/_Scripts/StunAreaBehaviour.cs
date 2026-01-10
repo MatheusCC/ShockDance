@@ -7,12 +7,14 @@ public class StunAreaBehaviour : MonoBehaviour {
 
     // Use this for initialization
 
-    /**Public variables*/
-    public GameObject stunCanvas;
+    [SerializeField]
+    private GameObject stunCanvas;
+    [SerializeField]
+    private Transform center;
+    [SerializeField]
+    private float stunEffectTime;
 
-    public Transform center;
-
-    public float StunEffectTime;
+    public Transform Center { get { return center; } set { center = value; } }
 
     void Start () {
         StunEffect();
@@ -28,7 +30,7 @@ public class StunAreaBehaviour : MonoBehaviour {
         {
             if(hitColliders[i].gameObject.tag == "Player")
             {
-                hitColliders[i].gameObject.GetComponent<PlayerMovement>().ActiveStunEffect(StunEffectTime);
+                hitColliders[i].gameObject.GetComponent<PlayerMovement>().ActiveStunEffect(stunEffectTime);
                 GameObject prefStunCanvas = Instantiate(stunCanvas, hitColliders[i].transform.position, stunCanvas.transform.rotation) as GameObject;
                 Destroy(prefStunCanvas, 2f);
                 break;

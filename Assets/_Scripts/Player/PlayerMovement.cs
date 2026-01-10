@@ -10,14 +10,16 @@ public class PlayerMovement : MonoBehaviour {
     Rigidbody playerRigidbody;
     CameraShake cameraRef;
 
-    /**Public variables*/
-    public float speed;
+    [SerializeField]
+    private float speed;
+    [SerializeField]
+    private GameObject deadVFX;
+    [SerializeField]
+    private float flashSpeed = 5f;
+    [SerializeField]
+    private Color flashColor;
 
-    public GameObject deadVFX;
-
-    //public Image touchWallFeedback;
-    public float flashSpeed = 5f;
-    public Color flashColor;
+    public GameObject DeadVFX { get { return deadVFX; } }
 
     /**Variables*/
     float moveHorizontal;
@@ -106,7 +108,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             touchWall = true;
 
-            cameraRef.shakeCamera = true;
+            cameraRef.ShakeCamera = true;
         }
     }
 

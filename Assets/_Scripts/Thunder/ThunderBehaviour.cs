@@ -6,13 +6,16 @@ public class ThunderBehaviour : MonoBehaviour {
 
     // Use this for initialization
 
-    /**Public variables*/
-    public GameObject thunderVFX;
-    public GameObject thunderAreaTargetVFX;
-    public GameObject stunArea;
-
-    public float thunderTimer;
-    public float stunAreaTimer;
+    [SerializeField]
+    private GameObject thunderVFX;
+    [SerializeField]
+    private GameObject thunderAreaTargetVFX;
+    [SerializeField]
+    private GameObject stunArea;
+    [SerializeField]
+    private float thunderTimer;
+    [SerializeField]
+    private float stunAreaTimer;
 
     /**variables to control the thunder behaviour*/
     bool activateAreaTarget;
@@ -103,9 +106,9 @@ public class ThunderBehaviour : MonoBehaviour {
     void StunAreaCollision()
     {
         
-        cameraRef.shakeCamera = true;
+        cameraRef.ShakeCamera = true;
         GameObject stunAreaPrefab = Instantiate(stunArea, thunderPosition.position, stunArea.transform.rotation) as GameObject;
-        stunAreaPrefab.GetComponent<StunAreaBehaviour>().center = thunderPosition;
+        stunAreaPrefab.GetComponent<StunAreaBehaviour>().Center = thunderPosition;
         activateStun = false;
         Destroy(this.gameObject,1f);
     }

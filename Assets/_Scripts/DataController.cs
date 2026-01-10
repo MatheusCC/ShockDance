@@ -9,7 +9,10 @@ public class DataController : MonoBehaviour {
 
     private PlayerProgress playerModeProgress;
 
-    public int gameMode;
+    [SerializeField]
+    private int gameMode;
+
+    public int GameMode { get { return gameMode; } set { gameMode = value; } }
 
     void Start () {
 

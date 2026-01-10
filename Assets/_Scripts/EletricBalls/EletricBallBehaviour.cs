@@ -6,9 +6,12 @@ public class EletricBallBehaviour : MonoBehaviour {
 
     // Use this for initialization
 
-    /**Public variables*/
-    public Transform spawnShock;
-    public GameObject shock;
+    [SerializeField]
+    private Transform spawnShock;
+    [SerializeField]
+    private GameObject shock;
+
+    public GameObject Shock { get { return shock; } set { shock = value; } }
 
     /**Creates a shock prefab using the spawn shock position*/
     public void InstantiateShock()

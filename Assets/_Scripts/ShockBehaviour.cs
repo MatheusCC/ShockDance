@@ -7,8 +7,8 @@ public class ShockBehaviour : MonoBehaviour {
 
     // Use this for initialization
    
-    /**Public Variables*/
-    public float shockSpeed;
+    [SerializeField]
+    private float shockSpeed;
 
     int pinkShocklife;
 
@@ -54,9 +54,9 @@ public class ShockBehaviour : MonoBehaviour {
         ends the game*/
         if (other.gameObject.tag == "Player")
         {
-            cameraRef.shakeCamera = true;
-            gameController.endGame = true;
-            GameObject prefabDeadFVX = Instantiate(player.deadVFX, other.transform.position, Quaternion.identity) as GameObject;
+            cameraRef.ShakeCamera = true;
+            gameController.EndGame = true;
+            GameObject prefabDeadFVX = Instantiate(player.DeadVFX, other.transform.position, Quaternion.identity) as GameObject;
             Destroy(prefabDeadFVX, 2);         
             Destroy(this.gameObject);
             Destroy(other.gameObject);

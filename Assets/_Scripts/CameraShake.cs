@@ -7,10 +7,14 @@ public class CameraShake : MonoBehaviour {
     and it perspective explanation, I'm not sure if I explain it 100% correctly*/
 
 
-    // Use this for initialization
-    public bool shakeCamera;
-    public float duration;
-    public float magnitude;
+    [SerializeField]
+    private bool shakeCamera;
+    [SerializeField]
+    private float duration;
+    [SerializeField]
+    private float magnitude;
+
+    public bool ShakeCamera { get { return shakeCamera; } set { shakeCamera = value; } }
 
     void Start () {
 

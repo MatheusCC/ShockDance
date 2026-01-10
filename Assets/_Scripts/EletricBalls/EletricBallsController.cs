@@ -6,11 +6,17 @@ public class EletricBallsController : MonoBehaviour {
 
     // Use this for initialization
 
-    /**Public pariables*/
-    public GameObject[] eletricBalls;
-    public GameObject[] shocks;
-    public float blueShockRate;
-    public float pinkShockRate;
+    [SerializeField]
+    private GameObject[] eletricBalls;
+    [SerializeField]
+    private GameObject[] shocks;
+    [SerializeField]
+    private float blueShockRate;
+    [SerializeField]
+    private float pinkShockRate;
+
+    public float BlueShockRate { get { return blueShockRate; } set { blueShockRate = value; } }
+    public float PinkShockRate { get { return pinkShockRate; } set { pinkShockRate = value; } }
 
 
     /**Variables*/
@@ -20,14 +26,14 @@ public class EletricBallsController : MonoBehaviour {
 
     void Start ()
     {
-        /**Find and stock all eletricballs in an array*/
+        //Find and stock all eletricballs in an array
         eletricBalls = GameObject.FindGameObjectsWithTag("EletricBall");
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-        /**Checks if is time to create a new blue shock
+        /*Checks if is time to create a new blue shock
         if YES call CreateShock function*/
         blueCurrentTime += Time.deltaTime;
         if (blueCurrentTime > blueShockRate)
@@ -37,7 +43,7 @@ public class EletricBallsController : MonoBehaviour {
             blueCurrentTime = 0;
         }
 
-        /**Checks if is time to create a new pink shock
+        /*Checks if is time to create a new pink shock
         if YES call CreateShock function*/
         pinkCurrentTime += Time.deltaTime;
         if (pinkCurrentTime > pinkShockRate)
@@ -51,7 +57,7 @@ public class EletricBallsController : MonoBehaviour {
     void CreateShock(int ID)
     {
         int randomBall = Random.Range(0, eletricBalls.Length);
-        eletricBalls[randomBall].GetComponent<EletricBallBehaviour>().shock = shocks[ID];
+        eletricBalls[randomBall].GetComponent<EletricBallBehaviour>().Shock = shocks[ID];
         eletricBalls[randomBall].GetComponent<EletricBallBehaviour>().InstantiateShock();
     }
 

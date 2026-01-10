@@ -20,9 +20,12 @@ public class GameController : MonoBehaviour {
     
     
 
-    public GameObject endGamePainel;
+    [SerializeField]
+    private GameObject endGamePainel;
+    [SerializeField]
+    private bool endGame;
 
-    public bool endGame;
+    public bool EndGame { get => endGame; set => endGame = value; }
 
     /**variables */
     float minutes;

@@ -59,24 +59,24 @@ public class ButtonBehaviour : MonoBehaviour {
         switch (mode)
         {
             case "Easy":
-                dataController.gameMode = 1;
-                eletricBallController.blueShockRate = 2;
-                eletricBallController.pinkShockRate = 5;
-                thunderBehaviourController.thunderRate = 8;
+                dataController.GameMode = 1;
+                eletricBallController.BlueShockRate = 2;
+                eletricBallController.PinkShockRate = 5;
+                thunderBehaviourController.ThunderRate = 8;
                 break;
 
             case "Medium":
-                dataController.gameMode = 2;
-                eletricBallController.blueShockRate = 1;
-                eletricBallController.pinkShockRate = 3;
-                thunderBehaviourController.thunderRate = 6;
+                dataController.GameMode = 2;
+                eletricBallController.BlueShockRate = 1;
+                eletricBallController.PinkShockRate = 3;
+                thunderBehaviourController.ThunderRate = 6;
                 break;
 
             case "Hard":
-                dataController.gameMode = 3;
-                eletricBallController.blueShockRate = 0.5f;
-                eletricBallController.pinkShockRate = 2;
-                thunderBehaviourController.thunderRate = 4;
+                dataController.GameMode = 3;
+                eletricBallController.BlueShockRate = 0.5f;
+                eletricBallController.PinkShockRate = 2;
+                thunderBehaviourController.ThunderRate = 4;
                 break;
         }
     }
