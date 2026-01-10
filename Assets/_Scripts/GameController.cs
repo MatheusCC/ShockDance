@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour {
     /**References*/
     private DataController dataController;
 
-    /**Public variables*/
+    /*
     [SerializeField]
     private TextMeshProUGUI gameModeText;
     [SerializeField]
@@ -17,7 +17,7 @@ public class GameController : MonoBehaviour {
     private TextMeshProUGUI timeEndGame;
     [SerializeField]
     private TextMeshProUGUI timeText;
-    
+    */
     
 
     [SerializeField]

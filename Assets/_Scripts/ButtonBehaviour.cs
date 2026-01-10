@@ -41,18 +41,7 @@ public class ButtonBehaviour : MonoBehaviour {
     {
         SceneManager.LoadScene(sceneName);  
     }
-
-
-    public void Quit()
-    {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
-
-    }
-
+    
     /**Set values for each mode when pressing the button*/
     public void LoadGameMode(string mode)
     {
