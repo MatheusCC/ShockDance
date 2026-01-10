@@ -6,7 +6,7 @@ public class GameController : MonoBehaviour {
     // Use this for initialization
 
     /**References*/
-    DataController dataController;
+    private DataController dataController;
 
     /**Public variables*/
     [SerializeField]
@@ -28,9 +28,9 @@ public class GameController : MonoBehaviour {
     public bool EndGame { get => endGame; set => endGame = value; }
 
     /**variables */
-    float minutes;
-    float seconds;
-    float endGameDelay;
+    private float minutes;
+    private float seconds;
+    private float endGameDelay;
 
     void Start () {
 

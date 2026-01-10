@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour {
     // Use this for initialization
 
     /** References*/
-    Rigidbody playerRigidbody;
-    CameraShake cameraRef;
+    private Rigidbody playerRigidbody;
+    private CameraShake cameraRef;
 
     [SerializeField]
     private float speed;
@@ -22,15 +22,15 @@ public class PlayerMovement : MonoBehaviour {
     public GameObject DeadVFX { get { return deadVFX; } }
 
     /**Variables*/
-    float moveHorizontal;
-    float moveVertical;
-    float originalSpeed;
-    Vector3 movement;
+    private float moveHorizontal;
+    private float moveVertical;
+    private float originalSpeed;
+    private Vector3 movement;
 
-    bool stunEffectON;
-    float stunEffectTime;
+    private bool stunEffectON;
+    private float stunEffectTime;
 
-    bool touchWall;
+    private bool touchWall;
 
     /**TouchScreen variables*/
     //public VirtualJoyStick moveJoyStick;

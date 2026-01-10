@@ -20,9 +20,9 @@ public class EletricBallsController : MonoBehaviour {
 
 
     /**Variables*/
-    float blueCurrentTime;
-    float pinkCurrentTime;
-    int ID;
+    private float blueCurrentTime;
+    private float pinkCurrentTime;
+    private int ID;
 
     void Start ()
     {

@@ -8,9 +8,9 @@ public class ButtonBehaviour : MonoBehaviour {
     // Use this for initialization
 
     /**References*/
-    EletricBallsController eletricBallController;
-    ThunderController thunderBehaviourController;
-    DataController dataController;
+    private EletricBallsController eletricBallController;
+    private ThunderController thunderBehaviourController;
+    private DataController dataController;
 
     void Start ()
     {

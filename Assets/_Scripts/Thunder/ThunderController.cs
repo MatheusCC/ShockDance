@@ -14,7 +14,7 @@ public class ThunderController : MonoBehaviour {
     public float ThunderRate { get => thunderRate; set => thunderRate = value; }
 
     /**variables*/
-    float currentTime;
+    private float currentTime;
 
     // Update is called once per frame
     void Update()

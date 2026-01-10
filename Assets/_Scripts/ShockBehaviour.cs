@@ -10,14 +10,14 @@ public class ShockBehaviour : MonoBehaviour {
     [SerializeField]
     private float shockSpeed;
 
-    int pinkShocklife;
+    private int pinkShocklife;
 
     /**References*/
-    Rigidbody rb;
-    GameController gameController;
-    PlayerMovement player;
-    CameraShake cameraRef;
-    AudioSource shockSound;
+    private Rigidbody rb;
+    private GameController gameController;
+    private PlayerMovement player;
+    private CameraShake cameraRef;
+    private AudioSource shockSound;
 
     void Start ()
     {

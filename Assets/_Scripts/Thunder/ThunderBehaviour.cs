@@ -18,14 +18,14 @@ public class ThunderBehaviour : MonoBehaviour {
     private float stunAreaTimer;
 
     /**variables to control the thunder behaviour*/
-    bool activateAreaTarget;
-    bool activateThunder;
-    bool activateStun;
+    private bool activateAreaTarget;
+    private bool activateThunder;
+    private bool activateStun;
 
     /**References*/
-    Transform player;
-    Transform thunderPosition;
-    CameraShake cameraRef;
+    private Transform player;
+    private Transform thunderPosition;
+    private CameraShake cameraRef;
 
     void Start()
     {       
