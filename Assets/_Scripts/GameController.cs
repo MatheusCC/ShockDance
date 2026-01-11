@@ -20,9 +20,7 @@ public class GameController : MonoBehaviour {
     */
      
     [SerializeField]
-    private EletricBallsController eletricBallController = null;
-    [SerializeField]
-    private ThunderController thunderBehaviourController = null;
+    private ArenaController arenaController = null;
     
 
     [SerializeField]
@@ -43,13 +41,12 @@ public class GameController : MonoBehaviour {
     {
         cachedGameModeConfig = gameModeConfigParam;
         
-        eletricBallController.BlueShockRate = cachedGameModeConfig.BlueShockRate;
-        eletricBallController.PinkShockRate = cachedGameModeConfig.PinkShockRate;
-        thunderBehaviourController.ThunderRate = cachedGameModeConfig.ThunderRate;
+        arenaController.BlueShockRate = cachedGameModeConfig.BlueShockRate;
+        arenaController.PinkShockRate = cachedGameModeConfig.PinkShockRate;
+        arenaController.ThunderRate = cachedGameModeConfig.ThunderRate;
 
         this.enabled = true;
-        eletricBallController.enabled = true;
-        thunderBehaviourController.enabled = true;
+        arenaController.enabled = true;
         
         Debug.Log("Starting Game!! GameMode: " + gameModeConfigParam.GameModeID);
     }
@@ -78,8 +75,7 @@ public class GameController : MonoBehaviour {
         /**If TRUE, stops to spawn shocks and thunder*/
         if (endGame)
         {
-            GetComponent<EletricBallsController>().enabled = false;
-            GetComponent<ThunderController>().enabled = false;
+            GetComponent<ArenaController>().enabled = false;
             endGameDelay -= Time.deltaTime;
             if(endGameDelay < 0)
             {

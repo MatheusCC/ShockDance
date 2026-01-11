@@ -6605,6 +6605,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858138771}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &903091944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1851206773071008, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &919748726
 GameObject:
   m_ObjectHideFlags: 0
@@ -7164,7 +7169,7 @@ PrefabInstance:
     - target: {fileID: 114854013431253738, guid: 6ac5af65897662044bacc2598c157026, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 1123253090}
+      objectReference: {fileID: 0}
     - target: {fileID: 114854013431253738, guid: 6ac5af65897662044bacc2598c157026, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
@@ -7292,11 +7297,11 @@ PrefabInstance:
     - target: {fileID: 114933552094935500, guid: 6ac5af65897662044bacc2598c157026, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 1123253088}
+      objectReference: {fileID: 0}
     - target: {fileID: 114933552094935500, guid: 6ac5af65897662044bacc2598c157026, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
-      objectReference: {fileID: 1123253090}
+      objectReference: {fileID: 0}
     - target: {fileID: 114933552094935500, guid: 6ac5af65897662044bacc2598c157026, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Target
       value: 
@@ -7408,11 +7413,11 @@ PrefabInstance:
     - target: {fileID: 114986912956961078, guid: 6ac5af65897662044bacc2598c157026, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 1123253088}
+      objectReference: {fileID: 0}
     - target: {fileID: 114986912956961078, guid: 6ac5af65897662044bacc2598c157026, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
-      objectReference: {fileID: 1123253090}
+      objectReference: {fileID: 0}
     - target: {fileID: 114986912956961078, guid: 6ac5af65897662044bacc2598c157026, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Target
       value: 
@@ -13164,8 +13169,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1123253089}
-  - component: {fileID: 1123253088}
-  - component: {fileID: 1123253090}
   - component: {fileID: 1123253091}
   m_Layer: 0
   m_Name: GameController
@@ -13174,24 +13177,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1123253088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123253087}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bfde2c06ad730043822421db6a5f63e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eletricBalls: []
-  shocks:
-  - {fileID: 1693000543568126, guid: da7c980e7cbcf374cb884634c1a9b31b, type: 3}
-  - {fileID: 1758854578002770, guid: 8fd12799fe791b14e996d0d899e63a3e, type: 3}
-  blueShockRate: 2
-  pinkShockRate: 5
 --- !u!4 &1123253089
 Transform:
   m_ObjectHideFlags: 0
@@ -13207,20 +13192,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1123253090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123253087}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 141f32884032b6847b9c29b5a332e065, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thunder: {fileID: 1533584657088632, guid: 484c1b3931f92fa43a1136eb5c325ae2, type: 3}
-  thunderRate: 8
 --- !u!114 &1123253091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13233,8 +13204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4accc13a425c564597c9e4006166e4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eletricBallController: {fileID: 1123253088}
-  thunderBehaviourController: {fileID: 1123253090}
+  arenaController: {fileID: 1730067633}
   endGamePainel: {fileID: 435089269}
   endGame: 0
 --- !u!1 &1143920668
@@ -13711,15 +13681,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256848065}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1318536959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1276523650520792, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1333168333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1083782335691704, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1347077723 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400028, guid: 2a08e72f9996f8a4b8b3b21fb00d338d, type: 3}
   m_PrefabInstance: {fileID: 747167997}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1390561728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1173501718475092, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1394526514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1371474355615590, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1625520093 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7417357952541089088, guid: 6ac5af65897662044bacc2598c157026, type: 3}
   m_PrefabInstance: {fileID: 986059654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1645075750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1235267371343172, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1662430918 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1835152419586932, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1673613789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1549265225254932, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1730067631
 GameObject:
@@ -13730,6 +13735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1730067632}
+  - component: {fileID: 1730067633}
   m_Layer: 0
   m_Name: Arena
   m_TagString: Untagged
@@ -13757,6 +13763,38 @@ Transform:
   - {fileID: 1021857441}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1730067633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730067631}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bfde2c06ad730043822421db6a5f63e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eletricBalls:
+  - {fileID: 1760991839}
+  - {fileID: 1318536959}
+  - {fileID: 1645075750}
+  - {fileID: 1751378389}
+  - {fileID: 903091944}
+  - {fileID: 1333168333}
+  - {fileID: 1673613789}
+  - {fileID: 1390561728}
+  - {fileID: 1662430918}
+  - {fileID: 1394526514}
+  - {fileID: 1966292532}
+  - {fileID: 2128893124}
+  shocks:
+  - {fileID: 1693000543568126, guid: da7c980e7cbcf374cb884634c1a9b31b, type: 3}
+  - {fileID: 1758854578002770, guid: 8fd12799fe791b14e996d0d899e63a3e, type: 3}
+  blueShockRate: 2
+  pinkShockRate: 5
+  thunder: {fileID: 1533584657088632, guid: 484c1b3931f92fa43a1136eb5c325ae2, type: 3}
+  thunderRate: 8
 --- !u!1 &1733278256
 GameObject:
   m_ObjectHideFlags: 0
@@ -13869,10 +13907,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733278256}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1751378389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1153147176526116, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1752698383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4350342364736918, guid: 572747838fd4e9f4b9e76b87f369c456, type: 3}
   m_PrefabInstance: {fileID: 2073008445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1760991839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1221036527626566, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1781208493
 PrefabInstance:
@@ -14272,6 +14320,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949977906}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1966292532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1278997123466086, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1971439998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14793,6 +14846,11 @@ PrefabInstance:
       addedObject: {fileID: 1946027583}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 572747838fd4e9f4b9e76b87f369c456, type: 3}
+--- !u!1 &2128893124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1895764257267768, guid: e1f53b571639ce446a21cdefb572b936, type: 3}
+  m_PrefabInstance: {fileID: 688059660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -14801,7 +14859,7 @@ SceneRoots:
   - {fileID: 1730067632}
   - {fileID: 404373485}
   - {fileID: 1123253089}
+  - {fileID: 809844818}
   - {fileID: 986059654}
   - {fileID: 2022367823}
-  - {fileID: 809844818}
   - {fileID: 780620440}

@@ -31,7 +31,6 @@ public class GameManager : MonoBehaviour
 #else
         Application.Quit();
 #endif
-
     }
 
     public void StartGameMode(int gameModeIndex)

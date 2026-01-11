@@ -1,12 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class ShockBehaviour : MonoBehaviour {
+public class Shock : MonoBehaviour {
 
     // Use this for initialization
-   
     [SerializeField]
     private float shockSpeed;
 
@@ -32,7 +31,7 @@ public class ShockBehaviour : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         rb.AddForce(transform.forward * shockSpeed, ForceMode.Impulse);
     }
-	
+
 	// Update is called once per frame
 	void Update ()
     {
@@ -57,11 +56,11 @@ public class ShockBehaviour : MonoBehaviour {
             cameraRef.ShakeCamera = true;
             gameController.EndGame = true;
             GameObject prefabDeadFVX = Instantiate(player.DeadVFX, other.transform.position, Quaternion.identity) as GameObject;
-            Destroy(prefabDeadFVX, 2);         
+            Destroy(prefabDeadFVX, 2);
             Destroy(this.gameObject);
             Destroy(other.gameObject);
         }
-        
+
         /**if a blueshock hits the wall it is destroyed
         if a pinkshock hits the wall it bounces 5 time and is destroyed*/
         if (other.gameObject.tag == "EletricWall" && this.gameObject.tag == "BlueShock")

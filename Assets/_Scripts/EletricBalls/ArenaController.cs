@@ -1,8 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EletricBallsController : MonoBehaviour {
+public class ArenaController : MonoBehaviour {
 
     // Use this for initialization
 
@@ -15,13 +15,21 @@ public class EletricBallsController : MonoBehaviour {
     [SerializeField]
     private float pinkShockRate;
 
+    [Header("Thunder")]
+    [SerializeField]
+    private GameObject thunder;
+    [SerializeField]
+    private float thunderRate;
+
     public float BlueShockRate { get { return blueShockRate; } set { blueShockRate = value; } }
     public float PinkShockRate { get { return pinkShockRate; } set { pinkShockRate = value; } }
+    public float ThunderRate { get => thunderRate; set => thunderRate = value; }
 
 
     /**Variables*/
     private float blueCurrentTime;
     private float pinkCurrentTime;
+    private float thunderCurrentTime;
     private int ID;
 
     void Start ()
@@ -29,7 +37,7 @@ public class EletricBallsController : MonoBehaviour {
         //Find and stock all eletricballs in an array
         eletricBalls = GameObject.FindGameObjectsWithTag("EletricBall");
 	}
-	
+
 	// Update is called once per frame
 	void Update ()
     {
@@ -51,6 +59,14 @@ public class EletricBallsController : MonoBehaviour {
             ID = 1;
             CreateShock(ID);
             pinkCurrentTime = 0;
+        }
+
+        /**Control with a rate variable when the GameObject "thunder" should be Instantiate*/
+        thunderCurrentTime += Time.deltaTime;
+        if (thunderCurrentTime > thunderRate)
+        {
+            GameObject thunderPrefab = Instantiate(thunder, thunder.transform.position, thunder.transform.rotation) as GameObject;
+            thunderCurrentTime = 0;
         }
     }
     /**Choose randomly one of the eletricballs and creates a shock from that ball */
