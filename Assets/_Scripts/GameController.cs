@@ -18,6 +18,11 @@ public class GameController : MonoBehaviour {
     [SerializeField]
     private TextMeshProUGUI timeText;
     */
+     
+    [SerializeField]
+    private EletricBallsController eletricBallController = null;
+    [SerializeField]
+    private ThunderController thunderBehaviourController = null;
     
 
     [SerializeField]
@@ -31,7 +36,24 @@ public class GameController : MonoBehaviour {
     private float minutes;
     private float seconds;
     private float endGameDelay;
+    
+    private GameModeData.GameModeConfig cachedGameModeConfig;
 
+    public void Initialize(GameModeData.GameModeConfig gameModeConfigParam)
+    {
+        cachedGameModeConfig = gameModeConfigParam;
+        
+        eletricBallController.BlueShockRate = cachedGameModeConfig.BlueShockRate;
+        eletricBallController.PinkShockRate = cachedGameModeConfig.PinkShockRate;
+        thunderBehaviourController.ThunderRate = cachedGameModeConfig.ThunderRate;
+
+        this.enabled = true;
+        eletricBallController.enabled = true;
+        thunderBehaviourController.enabled = true;
+        
+        Debug.Log("Starting Game!! GameMode: " + gameModeConfigParam.GameModeID);
+    }
+    
     void Start () {
 
         dataController = FindObjectOfType<DataController>();

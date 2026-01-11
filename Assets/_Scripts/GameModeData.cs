@@ -4,7 +4,7 @@ using UnityEngine;
 public class GameModeData : ScriptableObject
 {
     [System.Serializable]
-    private enum GameModeEnum
+    public enum GameModeEnum
     {
         NONE = 0,
         EASY_MODE = 1,
@@ -13,7 +13,7 @@ public class GameModeData : ScriptableObject
     }
 
     [System.Serializable]
-    private struct GameModeConfig
+    public struct GameModeConfig
     {
         [SerializeField]
         private GameModeEnum gameModeID;
@@ -32,4 +32,25 @@ public class GameModeData : ScriptableObject
     
     [SerializeField]
     private GameModeConfig[] gameModeConfigs;
+
+    public GameModeConfig GetGameModeConfig(GameModeEnum gameModeIDParam)
+    {
+        GameModeConfig gameModeConfig = default;
+        
+        for (int i = 0; i < gameModeConfigs.Length; i++)
+        {
+            if (gameModeConfigs[i].GameModeID == gameModeIDParam)
+            {
+                gameModeConfig = gameModeConfigs[i];
+                break;
+            }
+        }
+
+        if (gameModeConfig.GameModeID == GameModeEnum.NONE)
+        {
+            Debug.LogError("[GameModeData] GameModeConfig not found for game mode enum " + gameModeIDParam.ToString());
+        }
+
+        return gameModeConfig;
+    }
 }

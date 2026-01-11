@@ -6,6 +6,11 @@ public class GameManager : MonoBehaviour
     
     public static GameManager Instance { get { return instance; } }
 
+    [SerializeField] 
+    private GameModeData gameModeData = null;
+    [SerializeField]
+    private GameController gameController = null;
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -29,9 +34,13 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void StartGameMode(int mode)
+    public void StartGameMode(int gameModeIndex)
     {
-        
+        GameModeData.GameModeConfig gameModeConfig = gameModeData.GetGameModeConfig((GameModeData.GameModeEnum)gameModeIndex);
+        if (gameModeConfig.GameModeID != GameModeData.GameModeEnum.NONE)
+        {
+            gameController.Initialize(gameModeConfig);
+        }
     }
     
     private void Start()
