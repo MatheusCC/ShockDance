@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EletricBallBehaviour : MonoBehaviour {
+public class ElectricBallBehaviour : MonoBehaviour {
 
     // Use this for initialization
 

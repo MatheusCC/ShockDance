@@ -41,9 +41,7 @@ public class GameController : MonoBehaviour {
     {
         cachedGameModeConfig = gameModeConfigParam;
         
-        arenaController.BlueShockRate = cachedGameModeConfig.BlueShockRate;
-        arenaController.PinkShockRate = cachedGameModeConfig.PinkShockRate;
-        arenaController.ThunderRate = cachedGameModeConfig.ThunderRate;
+        arenaController.Initialize(gameModeConfigParam);
 
         this.enabled = true;
         arenaController.enabled = true;

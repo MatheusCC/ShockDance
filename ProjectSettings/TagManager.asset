@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - PinkShock
+  - BlueShock
+  - ElectricWall
+  - ElectricBall
   layers:
   - Default
   - TransparentFX

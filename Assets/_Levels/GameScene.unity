@@ -5821,6 +5821,14 @@ PrefabInstance:
       propertyPath: touchWallFeedback
       value: 
       objectReference: {fileID: 1783869837}
+    - target: {fileID: 8482210473274775310, guid: fb21388e953e53141912c2c5140a33f4, type: 3}
+      propertyPath: deadPrefab
+      value: 
+      objectReference: {fileID: 1568437806127792, guid: 52461fad7b7bbf743823cccf773e8130, type: 3}
+    - target: {fileID: 8482210473274775310, guid: fb21388e953e53141912c2c5140a33f4, type: 3}
+      propertyPath: cameraShake
+      value: 
+      objectReference: {fileID: 1190962102}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13775,7 +13783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bfde2c06ad730043822421db6a5f63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eletricBalls:
+  electricBalls:
   - {fileID: 1760991839}
   - {fileID: 1318536959}
   - {fileID: 1645075750}
@@ -13789,8 +13797,10 @@ MonoBehaviour:
   - {fileID: 1966292532}
   - {fileID: 2128893124}
   shocks:
-  - {fileID: 1693000543568126, guid: da7c980e7cbcf374cb884634c1a9b31b, type: 3}
-  - {fileID: 1758854578002770, guid: 8fd12799fe791b14e996d0d899e63a3e, type: 3}
+  - shockEnum: 0
+    shockPrefab: {fileID: 1693000543568126, guid: da7c980e7cbcf374cb884634c1a9b31b, type: 3}
+  - shockEnum: 1
+    shockPrefab: {fileID: 1758854578002770, guid: 8fd12799fe791b14e996d0d899e63a3e, type: 3}
   blueShockRate: 2
   pinkShockRate: 5
   thunder: {fileID: 1533584657088632, guid: 484c1b3931f92fa43a1136eb5c325ae2, type: 3}

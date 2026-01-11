@@ -5049,7 +5049,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bedbf32708b7fc4eb14095f05357eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shock
-  shockSpeed: 0
+  shockSpeed: 15
+  pinkShocklife: 5
 --- !u!82 &82736792014453806
 AudioSource:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 23497919675159968}
   m_Layer: 0
   m_Name: wall (4)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 23947854934428872}
   m_Layer: 0
   m_Name: wall (7)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4981,7 +4981,7 @@ GameObject:
   - component: {fileID: 23194711114529734}
   m_Layer: 0
   m_Name: wall (2)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5094,7 +5094,7 @@ GameObject:
   - component: {fileID: 23649855635443046}
   m_Layer: 0
   m_Name: wall (6)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19430,7 +19430,7 @@ GameObject:
   - component: {fileID: 23773967883484100}
   m_Layer: 0
   m_Name: wall
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24284,7 +24284,7 @@ GameObject:
   - component: {fileID: 23810889069743998}
   m_Layer: 0
   m_Name: wall (9)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38663,7 +38663,7 @@ GameObject:
   - component: {fileID: 23476382937428020}
   m_Layer: 0
   m_Name: wall (11)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43517,7 +43517,7 @@ GameObject:
   - component: {fileID: 23947998345595890}
   m_Layer: 0
   m_Name: wall (1)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53112,7 +53112,7 @@ GameObject:
   - component: {fileID: 23649530339290598}
   m_Layer: 0
   m_Name: wall (5)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53225,7 +53225,7 @@ GameObject:
   - component: {fileID: 23364280741787238}
   m_Layer: 0
   m_Name: wall (8)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58079,7 +58079,7 @@ GameObject:
   - component: {fileID: 23265286827786520}
   m_Layer: 0
   m_Name: wall (10)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58192,7 +58192,7 @@ GameObject:
   - component: {fileID: 23231145223479692}
   m_Layer: 0
   m_Name: wall (3)
-  m_TagString: EletricWall
+  m_TagString: ElectricWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

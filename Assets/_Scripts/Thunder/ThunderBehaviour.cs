@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ThunderBehaviour : MonoBehaviour {
 
@@ -42,12 +40,13 @@ public class ThunderBehaviour : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        /**Thunder is separated in 3 parts and it as order to it behaviour, 
+        /*Thunder is separated in 3 parts and it as order to it behaviour, 
         first - area target
         second - thunder effect
-        third - stun effect*/
+        third - stun effect
+        */
 
-        /**First behaviour*/
+        //First behaviour
         #region
         if (activateAreaTarget)
         {
@@ -55,7 +54,7 @@ public class ThunderBehaviour : MonoBehaviour {
         }
         #endregion
 
-        /**Second behaviour*/
+        //Second behaviour
         #region
         if (activateThunder)
         {
@@ -67,7 +66,7 @@ public class ThunderBehaviour : MonoBehaviour {
         }
         #endregion
 
-        /**Third behaviour*/
+        //Third behaviour
         #region
         if (activateStun)
         {
@@ -80,8 +79,8 @@ public class ThunderBehaviour : MonoBehaviour {
         #endregion
     }
 
-    /**First behaviour
-    Creates a target area using at the player position, save the position and activate second behaviuor*/
+
+    //Creates a target area using at the player position, save the position and activate second behaviuor
     void CreateThunderAreaTarget()
     {
         activateAreaTarget = false;
@@ -90,9 +89,8 @@ public class ThunderBehaviour : MonoBehaviour {
         activateThunder = true;
         Destroy(AreaTargetPrefab, 3.5f);
     }
-
-    /**Second behaviour
-    Create the thunder effect and activate third behaviour */
+    
+    //Create the thunder effect and activate third behaviour
     void CreateThunder()
     {
         activateThunder = false;
@@ -101,8 +99,8 @@ public class ThunderBehaviour : MonoBehaviour {
         Destroy(thunderVFXprefab, 3f);
     }
 
-    /**Third behaviour
-    Create a stun area when thunder hits the floor*/
+
+    //Create a stun area when thunder hits the floor
     void StunAreaCollision()
     {
         
